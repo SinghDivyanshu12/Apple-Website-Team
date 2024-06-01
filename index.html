@@ -1,142 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>apple.com</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="https://1000logos.net/wp-content/uploads/2016/10/Apple_logo_grey.png">
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      media="screen and (max-width: 1170px)"
+      href="phone.css"
+    />
+  </head>
 
-<head>
-    <!-- Meta tags for character set and viewport -->
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <!-- Title of the page -->
-    <title>Apple</title>
-
-    <!-- Link to external stylesheets -->
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="responsive.css">
-
-    <!-- Link to favicon -->
-    <link rel="shortcut icon" type="image/jpg" href="./img/apple-logo.png">
-
-    <!-- Link to external font-awesome CSS -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.8.2/css/all.min.css" crossorigin="anonymous">
-
-    <!-- Link to Google Fonts -->
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
-</head>
-
-<body>
-    <!-- Header section -->
-    <header>
-        <div class="header-wrapper">
-            <!-- Navigation menu icon -->
-            <span class="menu-logo hp-viewport fas fa-ellipsis-h"></span>
-
-            <!-- List of header items -->
-            <ul class="header-list">
-                <!-- Apple logo -->
-                <li class="header-content hp-viewport apple-header">
-                    <a href="https://www.apple.com/">
-                        <img class="logo" src="./img/apple-logo.png">
-                    </a>
-                </li>
-
-                <!-- Navigation links -->
-                <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/mac/">Mac</a></li>
-                <li class="header-content hp-viewport-hide"><a href="https://www.apple.com/ipad/">iPad</a></li>
-                <!-- ... (other navigation links) ... -->
-
-                <!-- Search functionality -->
-                <li class="header-content hp-viewport-hide fa-searchs">
-                    <a href="#" class="fas fa-search"></a>
-                </li>
-                <li>
-                    <!-- Search container -->
-                    <div class="search search-container">
-                        <div class="search-icon" id="searchIcon"><i class="fas fa-search"></i></div>
-                        <div class="search-dropdown" id="searchDropdown">
-                            <input type="text" placeholder="Search...">
-                            <button>Search</button>
-                        </div>
-                    </div>
-                </li>
-
-                <!-- Shopping bag link -->
-                <li class="header-content hp-viewport header-shoping">
-                    <a href="https://www.apple.com/us/shop/goto/bag" class="fas fa-shopping-bag"></a>
-                </li>
-            </ul>
-        </div>
-    </header>
-
-    <!-- Main content section -->
-    <main>
-        <!-- Content containers, titles, and links -->
-        <div class="container">
-            <div class="contents">
-                <!-- iPhone 12 container -->
-                <div class="image-container" onclick="location.href='https://www.apple.com/iphone-12/';" style="cursor: pointer;">
-                    <div class="iphone-12">
-                        <div class="title">
-                            <h1>iPhone 12</h1>
-                            <p>Blast past fast.</p>
-                        </div>
-                        <div class="cta-links">
-                            <a href="#" class="learn-more-link">Learn more ></a>
-                            <a href="#" class="buy-link">Buy ></a>
-                        </div>
-                    </div>
-                </div>
-                <!-- ... (other content containers) ... -->
-            </div>
-        </div>
-
-        <!-- List of product features -->
-        <ul class="flex-list">
-            <!-- List item 1 -->
-            <li class="li1 content">
-                <!-- Apple Watch Series 6 container -->
-                <div class="theme-dark container-main" onclick="location.href='https://www.apple.com/apple-watch-series-6/';" style="cursor: pointer;">
-                    <!-- Content details -->
-                    <div class="unit-copy-wrapper">
-                        <img class="apple-watch-logo" src="./img/apple-watch-logo.png" alt="apple-watch-logo">
-                        <h2 class="headline">The future of health is on your wrist.</h2>
-                    </div>
-                    <!-- Call to action links -->
-                    <div class="cta-links">
-                        <a href="https://www.apple.com/apple-watch-series-6/" class="learn-more-link">Learn more ></a>
-                        <a href="https://www.apple.com/shop/buy-watch/apple-watch" class="buy-link">Buy ></a>
-                    </div>
-                    <!-- Product image -->
-                    <div class="unit-image">
-                        <figure>
-                            <img src="./img/apple-watch-6.png" alt="apple-watch">
-                        </figure>
-                    </div>
-                </div>
-            </li>
-            <!-- ... (other list items) ... -->
+  <link
+    href="https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap"
+    rel="stylesheet"
+  />
+  <body id="body">
+    <div class="container">
+      <nav class="navbar">
+        <img src="./Images/apple(grey).jpg" class="logo" />
+        <ul>
+          <li><a href="#">Mac</a></li>
+          <li><a href="#">iPad</a></li>
+          <li><a href="#">iPhone</a></li>
+          <li><a href="#">Watch</a></li>
+          <li><a href="#">TV</a></li>
+          <li><a href="#">Music</a></li>
+          <li><a href="#">Support</a></li>
         </ul>
-    </main>
 
-    <!-- Footer section -->
-    <footer>
-        <!-- Footer container with footnotes -->
-        <div class="footer-container">
-            <div class="foot-notes">
-                <!-- List of footnotes -->
-                <ul>
-                    <li>1. Price includes a $30 AT&T, T-Mobile, Sprint, or Verizon discount. Requires activation with carrier...</li>
-                    <!-- ... (other footnotes) ... -->
-                </ul>
-            </div>
+        <img src="./Images/searching.jpg" class="searching" alt="">
+        <img src="./Images/bag.jpg" class="bag" id="bag-icon" alt="">
+      </nav>
+
+      <div class="bag-items" id="bag-items">
+        <p>Your bag is empty</p>
+        <ul>
+          <li><a href="#">Bag</a></li>
+          <li><a href="#">Favourites</a></li>
+          <li><a href="#">Orders</a></li>
+          <li><a href="#">Account</a></li>
+          <li><a href="#">Sign In</a></li>
+        </ul>
+      </div>
+
+      <div class="moreinfo">
+        <p>
+          Shop now at the Apple Store online with many great ways to buy. Get
+          free, no-contact delivery, Specialist help and
+          <a href="#"> more > </a>
+        </p>
+      </div>
+
+      <div class="fcontainer">
+        <div class="fitem_1"> <img class="iphone14pro" src="https://www.apple.com/v/iphone/home/bk/images/chapternav/iphone_14_pro_light__dfhcc00ur2oi_large.svg" alt="">
+        <span class="label">iPhone 14 Pro</span>
         </div>
-        <!-- ... (other footer content) ... -->
-    </footer>
+        <div class="fitem_2"> <img src="https://www.apple.com/v/iphone/home/bk/images/chapternav/iphone_14_light__fwknsxkf80uq_large.svg" alt="">
+          <span class="label">iPhone 14</span>
+          </div>
+        <div class="fitem_3"> <img src="https://www.apple.com/v/iphone/home/bk/images/chapternav/iphone_13_light__ewo3e0sf67o2_large.svg" alt="">
+          <span class="label">iPhone 13</span>
+        </div>
+        <div class="fitem_4"> <img src="https://www.apple.com/v/iphone/home/bk/images/chapternav/iphone_se_light__fhg8duy6ffau_large.svg" alt="">
+          <span class="label">iPhone SE</span>
+        </div>
+        <div class="fitem_5"> <img src="https://www.apple.com/v/iphone/home/bk/images/chapternav/iphone_12_light__cxh2ll1zwpw2_large.svg" alt="">
+          <span class="label">iPhone 12</span>
+        </div>
+        <div class="fitem_6"> <img src="https://www.apple.com/v/iphone/home/bk/images/chapternav/iphone_compare_light__f4jj7brpbvm2_large.svg" alt="">
+          <span class="label">Compare</span>
+        </div>
+        <div class="fitem_7"> <img src="https://www.apple.com/v/iphone/home/bk/images/chapternav/airpods_light__8oj157p2476a_large.svg" alt="">
+          <span class="label">AirPods</span>
+        </div>
+        <div class="fitem_8"> <img src="https://www.apple.com/v/iphone/home/bk/images/chapternav/airtag_light__cb2bmnv6aoeu_large.svg" alt="">
+          <span class="label">AirTag</span>
+        </div>
+        <div class="fitem_9"> <img src="https://www.apple.com/v/iphone/home/bk/images/chapternav/accessories_light__ed5l6ipsevqu_large.svg" alt="">
+          <span class="label">Accessories</span>
+        </div>
+        <div class="fitem_10"> <img src="https://www.apple.com/v/iphone/home/bk/images/chapternav/iphone_ios_light__b8s4ws8o77iq_large.svg" alt="">
+          <span class="label">iOS 16</span>
+        </div>
+        <div class="fitem_11"> <img src="https://www.apple.com/v/iphone/home/bk/images/chapternav/shop_iphone_light__b2toggskllle_large.svg" alt="">
+          <span class="label">Shop iPhone</span>
+        </div>
+      </div>
 
-    <!-- Closing script tag to include external JavaScript file -->
-    <script src="script.js"></script>
-</body>
 
+      <div class="content">
+        <div class="iphone12desc"><img src="./Images/content.jpg" alt="" /></div>
+
+        <div class="iphone12-links">
+          <a href="#">Learn more ></a> <a href="#">Buy ></a>
+        </div>
+
+        <div class="iphone12img"><img src="./Images/iphone12ss.jpg" alt="" /></div>
+      </div>
+
+      <div class="content2">
+        <div class="prodesc"><img src="./Images/content2.jpg" alt="" /></div>
+
+        <div class="iphone12-links">
+          <a href="#">Learn more ></a> <a href="#">Buy ></a>
+        </div>
+
+        <div class="proimg"><img src="./Images/iphone12pro.jpg" alt="" /></div>
+      </div>
+    </div>
+    
+<footer id="footer">
+    <p>More ways to shop.<a href="#">Find a retailer near you.</a>Or call 00000800 040 1966.</p><br>
+    <hr>
+    <br>
+    <p>Copyright &copy; 2021 Apple Inc; All rights reserved.   <a href="#">Privacy Policy</a> |   <a href="#">Terms of Use</a>  |   <a href="#">Sales Policy</a> |   <a href="#">Legal</a> | <a href="#">Site Map</a> </p>
+</footer>
+    <script src="operation.js"></script>
+  </body>
 </html>
